@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+</head>
+<body>
+<nav>
+
+    <a href="index.html">Home</a> |
+    <a href="about.html">About</a> |
+    <a href="resume.html">Resume</a> |
+    <a href="contact.html">Contact</a>
+
+
+</nav>
+<article>
+<h1>Contact Me</h1>
+<p>
+            Info lebih lanjut:
+           <a href="mailto:tes@contoh.com"
+           title="kirim email ke Admin">Hubungi Saya</a>
+        </p>
+
+<p>Email: ilhamiwan@gmail.com</p>
+<p>Instagram: @ilham</p>
+
+
+<form action="contact.php" method="POST">
+        <fieldset>
+        <legend>Contact Me</legend>
+        <p>
+            <label>Nama:</label>
+            <input type="text" name="nama" placeholder="Nama lengkap..." />
+        </p>
+        <p>
+            <label>Username:</label>
+            <input type="text" name="username" placeholder="Username..." />
+        </p>
+        <p>
+            <label>Email:</label>
+            <input type="email" name="email" placeholder="Your email..." />
+        </p>
+        <p>
+            <label>Jenis kelamin:</label>
+            <label><input type="radio" name="jenis_kelamin" value="laki-laki" /> Laki-laki</label>
+            <label><input type="radio" name="jenis_kelamin" value="perempuan" /> Perempuan</label>
+        </p>
+        <p>
+            <label>Agama:</label>
+            <select name="agama">
+                <option value="islam">Islam</option>
+                <option value="kristen">Kristen</option>
+                <option value="hindu">Hindu</option>
+                <option value="budha">Budha</option>
+            </select>
+        </p>
+        <p>
+            <label>Biografi:</label>
+            <textarea name="biografi"></textarea>
+        </p>
+        <p>
+            <input type="submit" name="submit" value="send" />
+        </p>
+        </fieldset>
+    </form>
+
+
+</article>
+
+  <footer>
+    Copyright &copy; 2026 by ilham
+  </footer>
+</body>
+</html>
