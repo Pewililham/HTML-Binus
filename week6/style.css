@@ -1,0 +1,55 @@
+/* NAVBAR SECTION */
+nav a {
+    text-decoration: none;
+    color: #6daeeb;
+    font-family: sans;
+    padding: 8px 12px;
+    transition: color 0.3s, background-color 0.3s;
+}
+.navbar {
+    display: flex;
+    gap: 10px;
+}
+
+
+/* HOVER NAVBAR */
+nav a:hover {
+    color: white;
+    background-color: #6daeeb;
+    border-radius: 5px;
+}
+/* Active Page */
+
+nav a.active {
+    background-color: #1e4f8f;
+    color: white;
+    font-weight: bold;
+}
+
+
+p {
+    font-family: serif;
+    line-height: 1.75em;
+}
+
+i {
+    font-family: sans;
+    color: rgb(132, 188, 239);
+}
+
+h1 {
+    font-family: sans;
+    color: #6daeeb;
+    transition: 0.3s;
+}
+
+h1:hover {
+    color:rgb(59, 151, 237);
+    transform: scale(1.05);
+}
+
+h3 {
+    font-family: sans;
+    color: #027bed;
+    transition: 0.3s;
+}
